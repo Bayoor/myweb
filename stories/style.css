@@ -98,6 +98,13 @@ input {
   color: #ffffff;
 }
 
+@media only screen and (max-width: 767px) {
+    h6 {
+      padding-top: 30px;
+    }
+  }
+
+
 @media only screen and (min-width: 768px) {
   h6 {
     padding-top: 30px;
