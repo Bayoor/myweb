@@ -1,81 +1,61 @@
 body {
-    background-color:#f0f0f0 ;
+  background-color: #f1efef;
 }
 
 span {
-    color: #0086b0;
+  color: #0086b0;
 }
 
-.container {
-    display: grid;
-    place-items: center;
-    text-align: center;
-    background-color: #fdfeff;
-    margin:auto;
+.wrapper {
+  display: grid;
+  place-items: center;
+  text-align: center;
+  background-color: #fdfeff;
+  padding: 20px 10px;
+  height: 80vh;
+  margin-top: 40px;
+}
+
+.wrapper input {
+  margin-bottom: 40px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  width: 70vw;
+}
+
+.wrapper button {
+  width: 60vw;
+  border-radius: 5px;
+  border: none;
+  padding: 10px 5px;
+  color: #ffffff;
+  background-color: #0086b0;
+}
+
+
+a:link {
+  text-decoration: none;
+}
+
+@media only screen and (min-width: 768px) {
+  .wrapper button {
+    margin-top: -50px;
+    margin-bottom: 30px;
+    width: 35vw;
+  }
+
+  .wrapper { 
     height: 85vh;
-    width: 40vw;
-}
-
-.container input {
-    margin-bottom: 40px;
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    width: 30vw;
-  }
-
-  .container button {
-    width: 30vw;
-    border-radius: 5px;
-    border: none;
-    padding: 10px 5px;
-    color: #ffffff;
-    background-color: #0086b0;
-  } 
-
-  .container p {
-    margin-top: -90px;
-  }
-
-  .container h2 {
-    transform: translateY(70px);
-  }
-   a:link {
-    text-decoration: none;
-   }
-
-  @media only screen and (max-width: 768px) {
-    button {
-      margin-top: -50px;
-      margin-bottom: 30px;
-    }
-
-  }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    width: 50vw;
+    margin-left: 300px;
     
-  
+    
+  }
+
+  .wrapper input {
+    margin-bottom: 40px;
+    width: 35vw;
+  }
+
+}
