@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Harmattan:wght@700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.border_bottom {
+  border-bottom: 3px solid #aeb0b3;
+}
+
+.flex_nav nav {
+  display: flex;
+  list-style: none;
+}
+
+.nav-link {
+  margin-left: 15px;
+  /* border: 1px solid red; */
+}
+
+.flex button {
+ 
+  /* border-radius: 7px; */
+  background: #292929;
+  color: #ffffff;
+}
+
+span {
+  color: #0086b0;
+}
+
+
+
+ .edit, 
+.delete {
+  width: 100px;
+  height: 31px;
+  border-radius: 7px;
+  font-size: 20px;
+  font-weight: 700;
+  margin: 15px;
+  padding: -6px 10px;
+}
+
+.edit {
+  border: 1px solid #0086b0;
+  background-color: #0086b0;
+  color: #ffffff;
+}
+
+.para1 {
+  font-size: 40px;
+  /* margin-left: 2px; */
+}
+
+
+
+.button button {
+  color: #ffffff;
+  background-color: #000000;
+  padding: -6px -20px; 
+  border-radius: 5px;
+  width: 100px;
+  height: 28px;
+  margin-top: 20px;
+}
+
+.flex p,
+.flex button,
+.para {
+  font-weight: 700;
+  font-family: 'Harmattan', sans-serif;
+}
+
+.delete {
+  border: 1px solid #0086b0;
+  color: #0086b0;
+}
+
+
+
+footer {
+  color: #ffffff;
+}
+
+
+a:link {
+  text-decoration: none;
+}
+
+#nav_link li a,
+#nav_link2 li a {
+  color: #ffffff;
+}
+
+#nav_link li,
+#nav_link2 li {
+  list-style-type: none;
+}
+
+.terms {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.social img {
+  height: 10px;
+  margin-left: 10px;
+}
+
+#small,
+.social {
+  margin-top: -5px;
+  margin-bottom: 10px;
+}
+
+input {
+  padding: 5px 50px 5px 5px;
+}
+
+.image {
+  position: relative;
+  bottom: 33px;
+  left: 100px;
+  height: 11px;
+}
+
+.sub button {
+  position: relative;
+  bottom: 33px;
+  left: 125px;
+  padding: 1px 30px 1px 10px;
+  height: 30px;
+  border: none;
+  border-radius: 3px;
+  background: #0086b0;
+  color: #ffffff;
+}
+
+@media only screen and (max-width: 767px) {
+  h6 {
+    padding-top: 30px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  h6 {
+    padding-top: 30px;
+  }
+
+  #nav_link2 {
+    padding-top: 55px;
+  }
+
+  .sub button {
+    position: relative;
+    bottom: 33px;
+    left: 125px;
+    padding: 1px 30px 1px 10px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    background: #0086b0;
+    color: #ffffff;
+  }
+
+  .image {
+    position: relative;
+    bottom: 34px;
+    left: 100px;
+  }
+
+  input {
+    padding: 5px 50px 5px 5px;
+  }
+}
+
+

@@ -1,0 +1,326 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+span {
+  color: #0086b0;
+}
+
+.para {
+  font-size: 13px;
+  font-size: 700;
+  border-radius: 3px;
+}
+
+
+
+.img p {
+  font-size: 13px;
+}
+
+.card-img-overlay button {
+  background-color: #0086b0;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  padding: 0px 10px;
+  transform: translateY(-10px);
+}
+
+
+
+.col-lg-4 {
+  display: grid;
+  place-items: center;
+  /* border: 2px solid yellow; */
+}
+
+
+.fashion_companies {
+  margin-top: 40px;
+}
+
+.navbar-collapse button {
+  background-color: #0086b0;
+  padding: 2px 10px;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+}
+
+.para button {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  width: 45%;
+  padding: -3px 10px;
+  border: none;
+  border-radius: 3px;
+  color: #ffffff;
+  
+}
+
+.brown {
+  background-color: #e5bf5e;
+}
+
+.green {
+  background-color: #41d750;
+}
+
+.blue {
+  background-color: #6397e5;
+}
+
+.wrapper {
+  background-image: url(../Images/Rectangle\ 38.png);
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.wrapper button {
+  margin-top: 10px;
+  width: 50%;
+  border: none;
+  border-radius: 5px;
+  background-color:#0086b0;
+  color: #ffffff;
+}
+
+
+
+.wrapper input {
+  padding-left: 7px;
+}
+
+footer {
+  color: #ffffff;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+#nav_link li a,
+#nav_link2 li a {
+  color: #ffffff;
+}
+
+#nav_link li,
+#nav_link2 li {
+  list-style-type: none;
+}
+
+.terms {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.social img {
+  height: 10px;
+  margin-left: 10px;
+}
+
+#small,
+.social {
+  margin-top: -5px;
+  margin-bottom: 10px;
+}
+
+input {
+  padding: 5px 50px 5px 5px;
+}
+
+.image {
+  position: relative;
+  bottom: 33px;
+  left: 100px;
+  height: 11px;
+}
+
+.sub button {
+  position: relative;
+  bottom: 33px;
+  left: 125px;
+  padding: 1px 30px 1px 10px;
+  height: 30px;
+  border: none;
+  border-radius: 3px;
+  background: #0086b0;
+  color: #ffffff;
+}
+
+@media only screen and (max-width: 767px) {
+  .para button {
+    margin-left: 40px;
+  }
+
+    .card-text {
+      display: none;
+    }
+
+  .card-img-overlay h1 {
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: -5px;
+  }
+
+    h6 {
+      padding-top: 30px;
+    }
+  }
+  
+@media only screen and (min-width: 768px) {
+
+  .img {
+    width: 100%;
+    height: auto;
+    border: none;
+  }
+
+  .card-text1 {
+    display: none;
+  }
+
+  .card-img-overlay {
+    margin-top: 150px;
+  }
+
+.card-img-overlay h1 {
+  font-size: 80px;
+  margin-bottom: 20px;
+}
+
+.card-img-overlay p {
+  font-size: 20px;
+}
+
+  .card-img-overlay button{
+    width: 10%;
+    border: none;
+    border-radius: 5px;
+    background-color: #0086b0;
+    color: #ffffff;
+  }
+
+  .navbar-nav button {
+    width: 100%;
+    padding: 0px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #0086b0;
+    color: #ffffff;
+  }
+
+  .fashion_companies {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    border: 1px solid #b8b5b5;
+    padding: 20px 40px;
+  }
+
+
+
+
+  h6 {
+    padding-top: 30px;
+  }
+
+
+  section.wrapper {
+    text-align: center;
+    margin-top: 15px;
+    padding: 10px 3px;
+  }
+
+  .wrapper input {
+    height: 4vh;
+    width: 25%;
+    border: none;
+    border-radius: 7px 0px 0px 7px;
+  }
+
+  .wrapper button {
+    width: 10%;
+    padding: -3px 10px;
+    background-color: #0086b0;
+    color: #ffffff;
+    border: none;
+    border-radius: 0px 7px 7px 0px;
+    margin-bottom: 10px;
+    margin-left: -4px;
+    height: 4vh;
+  }
+
+  .col-lg-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .col-lg-4 div {
+    padding: 10px 8px;
+  }
+
+  .col-lg-4 img {
+    max-width: 45%;
+    height: auto;
+    /* border: 3px solid #e5bf5e */
+  }
+
+  .container.para {
+    margin-top: 10px;
+  }
+
+  
+
+  .para button {
+    padding: -5px 9px;
+    border-radius: 5px;
+    border: none;
+    width: 50%;
+    height: 4vh;
+    color: #ffffff;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  h6 {
+    padding-top: 30px;
+  }
+
+  #nav_link2 {
+    padding-top: 55px;
+  }
+
+  .sub button {
+    position: relative;
+    bottom: 33px;
+    left: 125px;
+    padding: 1px 30px 1px 10px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    background: #0086b0;
+    color: #ffffff;
+  }
+
+  .image {
+    position: relative;
+    bottom: 34px;
+    left: 100px;
+  }
+
+  input {
+    padding: 5px 50px 5px 5px;
+  }
+}
+
