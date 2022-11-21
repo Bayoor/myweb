@@ -138,14 +138,14 @@ input {
 .image {
   position: relative;
   bottom: 33px;
-  left: 100px;
+  left: 120px;
   height: 11px;
 }
 
 .sub button {
   position: relative;
   bottom: 33px;
-  left: 140px;
+  left: 150px;
   padding: 1px 30px 1px 10px;
   height: 30px;
   border: none;
