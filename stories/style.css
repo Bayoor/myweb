@@ -82,14 +82,14 @@ input {
 .image {
   position: relative;
   bottom: 33px;
-  left: 100px;
+  left: 135px;
   height: 11px;
 }
 
 .sub button {
   position: relative;
   bottom: 33px;
-  left: 125px;
+  left: 160px;
   padding: 1px 30px 1px 10px;
   height: 30px;
   border: none;
@@ -98,7 +98,7 @@ input {
   color: #ffffff;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 600px) {
     h6 {
       padding-top: 30px;
     }
