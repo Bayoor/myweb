@@ -140,9 +140,13 @@ input {
   color: #ffffff;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 600px) {
   h6 {
     padding-top: 30px;
+  }
+
+  .col-lg-8 h2 {
+    font-size: 14px;
   }
 }
 
