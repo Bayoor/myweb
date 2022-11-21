@@ -124,14 +124,14 @@ input {
 .image {
   position: relative;
   bottom: 33px;
-  left: 100px;
+  left: 135px;
   height: 11px;
 }
 
 .sub button {
   position: relative;
   bottom: 33px;
-  left: 125px;
+  left: 160px;
   padding: 1px 30px 1px 10px;
   height: 30px;
   border: none;
@@ -146,7 +146,7 @@ input {
   }
 
   .col-lg-8 h2 {
-    font-size: 14px;
+    font-size: 18px;
   }
 }
 
