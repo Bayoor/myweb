@@ -75,7 +75,7 @@ span {
 }
 
 .wrapper {
-  background-image: url(../Images/Rectangle\ 38.png);
+  background-image: url(./Images/Rectangle\ 38.png);
   text-align: center;
   padding-top: 30px;
   padding-bottom: 20px;
@@ -93,7 +93,7 @@ span {
 
 
 .wrapper input {
-  padding-left: 7px;
+  padding-left: 3px;
 }
 
 footer {
@@ -138,14 +138,14 @@ input {
 .image {
   position: relative;
   bottom: 33px;
-  left: 120px;
+  left: 135px;
   height: 11px;
 }
 
 .sub button {
   position: relative;
   bottom: 33px;
-  left: 150px;
+  left: 160px;
   padding: 1px 30px 1px 10px;
   height: 30px;
   border: none;
