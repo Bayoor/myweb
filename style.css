@@ -145,7 +145,7 @@ input {
 .sub button {
   position: relative;
   bottom: 33px;
-  left: 125px;
+  left: 140px;
   padding: 1px 30px 1px 10px;
   height: 30px;
   border: none;
@@ -154,7 +154,7 @@ input {
   color: #ffffff;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 600px) {
   .para button {
     margin-left: 40px;
   }
