@@ -24,7 +24,7 @@ a:link {
   border-top: none;
   border-left: none;
   border-right: none;
-  width: 30vw;
+  width: 50vmax
 }
 
 .container button {
@@ -34,4 +34,10 @@ a:link {
   padding:15px  5px;
   color: #ffffff;
   background-color: #0086b0;
+}
+
+@media only screen and (min-width: 768px) {
+  .container input {
+    width: 30vw;
+  }
 }
