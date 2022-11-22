@@ -106,6 +106,28 @@ input {
   color: #ffffff;
 }
 
+@media only screen and (min-width: 576px) {
+  .image {
+    position: relative;
+    bottom: 33px;
+    left: 135px;
+    height: 11px;
+  }
+  
+  .sub button {
+    position: relative;
+    bottom: 33px;
+    left: 160px;
+    padding: 1px 30px 1px 10px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    background: #0086b0;
+    color: #ffffff;
+  }
+  
+}
+
 
 @media only screen and (min-width: 768px) {
   h6 {
