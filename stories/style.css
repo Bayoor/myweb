@@ -29,6 +29,10 @@ small > span {
   /* line-height: 1.5; */
 }
 
+h6 {
+  padding-top: 30px;
+}
+
 .details {
   line-height: 1.5;
   margin-top: 5px;
@@ -102,38 +106,8 @@ input {
   color: #ffffff;
 }
 
-/* @media only screen and (max-width: 600px) {
-    h6 {
-      padding-top: 30px;
-    }
 
-    .para {
-      font-size: 12px;
-    }
-
-    .sub button {
-      position: relative;
-      bottom: 33px;
-      left: 190px;
-      padding: 1px 30px 1px 10px;
-      height: 30px;
-      border: none;
-      border-radius: 3px;
-      background: #0086b0;
-      color: #ffffff;
-    }
-  
-    .image {
-      position: relative;
-      bottom: 34px;
-      left: 120px;
-    }
-  
-  } */
-
-
-@media only screen and (min-width: 600px)
-and (min-width: 768px) {
+@media only screen and (min-width: 768px) {
   h6 {
     padding-top: 30px;
   }
