@@ -40,4 +40,8 @@ a:link {
   .container input {
     width: 30vw;
   }
+
+  .container button {
+    width: 30vmax;
+  }
 }
