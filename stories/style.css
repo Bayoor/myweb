@@ -106,28 +106,52 @@ input {
   color: #ffffff;
 }
 
-@media only screen and (orientation: portrait) {
+ @media only screen and (max-width: 600px) {
   .image {
     position: relative;
     bottom: 33px;
-    left: 135px;
+    left: 96px;
     height: 11px;
   }
   
   .sub button {
     position: relative;
     bottom: 33px;
-    left: 200px;
+    left: 120px;
     padding: 1px 30px 1px 10px;
     height: 30px;
     border: none;
     border-radius: 3px;
     background: #0086b0;
     color: #ffffff;
-  }
-  
+  } 
 }
+ 
+@media only screen and (min-width:600px){
 
+  .sub button {
+    /* bottom: 33px; */
+  left: 120px;
+  }
+
+  .image {
+    /* bottom: 33px; */
+    left: 96px;
+  }
+}
+  
+
+@media only screen and (min-width:992px) {
+  .sub button {
+    /* bottom: 33px; */
+  left: 120px;
+  }
+
+  .image {
+    /* bottom: 33px; */
+    left: 96px;
+  }
+}
 
 @media only screen and (min-width: 768px) {
   h6 {
