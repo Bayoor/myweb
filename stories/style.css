@@ -102,10 +102,33 @@ input {
   color: #ffffff;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (min-width: 600px) {
     h6 {
       padding-top: 30px;
     }
+
+    .para {
+      font-size: 16px;
+    }
+
+    .sub button {
+      position: relative;
+      bottom: 33px;
+      left: 160px;
+      padding: 1px 30px 1px 10px;
+      height: 30px;
+      border: none;
+      border-radius: 3px;
+      background: #0086b0;
+      color: #ffffff;
+    }
+  
+    .image {
+      position: relative;
+      bottom: 34px;
+      left: 135px;
+    }
+  
   }
 
 
